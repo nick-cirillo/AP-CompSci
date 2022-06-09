@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Cookie Clicker Basic</title>
+        <style>
+            #progress {
+                background-color: red;
+                color: white;
+            }
+            #cookie {
+                position: absolute;
+                top: 100px;
+            }
+        </style>
+        <script>
+            function hit()
+            {
+                //Update score
+                var score;
+                score = document.getElementById("score").innerHTML;
+                score++;
+                document.getElementById("score").innerHTML = score;
+
+                //move cookie
+                var newX = Math.random() * 500;
+                var newY = Math.random() * 500;
+                document.getElementById("cookie").style.left = newX;
+                document.getElementById("cookie").style.top = newY;
+
+                //update progress bar color
+                if (score >= 10)
+                {
+                    document.getElementById("progress").style.backgroundColor = "green";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <img id="cookie" src="cookie.jpg" alt="cookie" height="80" width="90" onClick="hit()">
+        <br>
+        <table border="1">
+            <tr>
+                <td>Score</td>
+                <td id="score">0</td>
+            </tr>
+        </table>
+        <br>
+        <span id="progress">Progress Bar goes here</span>
+    </body>
+</html>

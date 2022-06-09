@@ -1,0 +1,14 @@
+English|chocolate|Wyoming|Soccer|cod
+IB Business|vanilla|Wyoming|Football|cod
+IB Sports|strawberry|plasma|cross country|cod
+chemistry|vanilla|Delaware |none|cod
+English|strawberry|Ohio|None|mario
+Lunch|chocolate|Idaho|American Ninja Warrior|mario
+English|vanilla|South Dakoda|Track & Field|switchsports
+AP Computer Science|vanilla|New Jersey|Baseball|madden
+Physics|chocolate|Montana|Volleyball|cod
+ap environmental |chocolate|Idaho |gymnastics |switchsports
+English|chocolate|New Jersey|Soccer|madden
+Spanish|vanilla|Arkansas|None|mario
+Physics|vanilla|Idaho|None|switchsports
+Spanish|vanilla|Arkansas|None|mariolunch|chocolate|idaho|murder|amongus
